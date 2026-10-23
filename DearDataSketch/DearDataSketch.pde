@@ -1,4 +1,5 @@
 void setup() {
+  background(225);
 }
 
 
