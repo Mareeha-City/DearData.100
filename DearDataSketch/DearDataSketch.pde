@@ -17,7 +17,7 @@ void draw() {
 
 //creating the intial array - no colours or varying sizes yet 
 void drawShape() {
-  for (int row = 2; row < data.getRowCount(); row = row + 1) {
+  for (int row = 2; row < data.getRowCount(); row += 1) {
       int col = (row - 2) % 10;
       int r = (row - 2) / 10;
 
@@ -26,7 +26,7 @@ void drawShape() {
 }
 
 void colourFill() {
-  for (int row = 2; row < data.getRowCount(); row = row + 1) {
+  for (int row = 2; row < data.getRowCount(); row += 1) {
   }
 }
 
