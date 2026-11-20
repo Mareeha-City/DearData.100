@@ -21,14 +21,22 @@ void drawShape() {
       int col = (row - 2) % 10;
       int r = (row - 2) / 10;
 
-      circle(20 + col * 40, 20 + r * 40, 30);
+      circle(20 + col * 40, 20 + r * 50, 35);
   }
 }
 
 void colourFill() {
   for (int row = 2; row < data.getRowCount(); row += 1) {
+    int col = (row - 2)
   }
 }
 
 void colourOutline() {
+}
+
+//there should be a method that draws the keys when the space button is pressed
+//then, when the button is let go it should remove tha the circle keys 
+
+
+void key_square() {
 }
